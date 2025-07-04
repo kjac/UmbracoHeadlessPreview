@@ -22,7 +22,7 @@ export default function CoverImage({ title, coverImage, slug }: Props) {
     />
   );
   return (
-    <div className="sm:mx-0" umb-preview-edit="coverImage">
+    <div className="sm:mx-0" umb-preview-edit="coverImage:modal:medium">
       {slug ? (
         <Link href={`/posts${slug}`} aria-label={title}>
           {image}
